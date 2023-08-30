@@ -37,6 +37,7 @@ class ComposerStaticIniteb0be109ff9eb639f623a5075a9b0c0a
         'a1cfe24d14977df6878b9bf804af2d1c' => __DIR__ . '/..' . '/nunomaduro/collision/src/Adapters/Phpunit/Autoload.php',
         'ec07570ca5a812141189b1fa81503674' => __DIR__ . '/..' . '/phpunit/phpunit/src/Framework/Assert/Functions.php',
         '320163ac6b93aebe3dc25b60a0533d56' => __DIR__ . '/..' . '/spatie/laravel-ignition/src/helpers.php',
+        'd21d43db5f6e840ee7b10744ec7fdf66' => __DIR__ . '/../..' . '/app/Helpers/helpers.php',
     );
 
     public static $prefixLengthsPsr4 = array (
@@ -351,8 +352,8 @@ class ComposerStaticIniteb0be109ff9eb639f623a5075a9b0c0a
         ),
         'Psr\\Http\\Message\\' => 
         array (
-            0 => __DIR__ . '/..' . '/psr/http-message/src',
-            1 => __DIR__ . '/..' . '/psr/http-factory/src',
+            0 => __DIR__ . '/..' . '/psr/http-factory/src',
+            1 => __DIR__ . '/..' . '/psr/http-message/src',
         ),
         'Psr\\Http\\Client\\' => 
         array (
@@ -520,7 +521,12 @@ class ComposerStaticIniteb0be109ff9eb639f623a5075a9b0c0a
     public static $classMap = array (
         'App\\Console\\Kernel' => __DIR__ . '/../..' . '/app/Console/Kernel.php',
         'App\\Exceptions\\Handler' => __DIR__ . '/../..' . '/app/Exceptions/Handler.php',
+        'App\\Http\\Controllers\\ChapterController' => __DIR__ . '/../..' . '/app/Http/Controllers/ChapterController.php',
         'App\\Http\\Controllers\\Controller' => __DIR__ . '/../..' . '/app/Http/Controllers/Controller.php',
+        'App\\Http\\Controllers\\CourseController' => __DIR__ . '/../..' . '/app/Http/Controllers/CourseController.php',
+        'App\\Http\\Controllers\\ImageCourseController' => __DIR__ . '/../..' . '/app/Http/Controllers/ImageCourseController.php',
+        'App\\Http\\Controllers\\LessonController' => __DIR__ . '/../..' . '/app/Http/Controllers/LessonController.php',
+        'App\\Http\\Controllers\\MentorController' => __DIR__ . '/../..' . '/app/Http/Controllers/MentorController.php',
         'App\\Http\\Kernel' => __DIR__ . '/../..' . '/app/Http/Kernel.php',
         'App\\Http\\Middleware\\Authenticate' => __DIR__ . '/../..' . '/app/Http/Middleware/Authenticate.php',
         'App\\Http\\Middleware\\EncryptCookies' => __DIR__ . '/../..' . '/app/Http/Middleware/EncryptCookies.php',
@@ -531,6 +537,13 @@ class ComposerStaticIniteb0be109ff9eb639f623a5075a9b0c0a
         'App\\Http\\Middleware\\TrustProxies' => __DIR__ . '/../..' . '/app/Http/Middleware/TrustProxies.php',
         'App\\Http\\Middleware\\ValidateSignature' => __DIR__ . '/../..' . '/app/Http/Middleware/ValidateSignature.php',
         'App\\Http\\Middleware\\VerifyCsrfToken' => __DIR__ . '/../..' . '/app/Http/Middleware/VerifyCsrfToken.php',
+        'App\\Models\\Chapter' => __DIR__ . '/../..' . '/app/Models/Chapter.php',
+        'App\\Models\\Course' => __DIR__ . '/../..' . '/app/Models/Course.php',
+        'App\\Models\\ImageCourse' => __DIR__ . '/../..' . '/app/Models/ImageCourse.php',
+        'App\\Models\\Lesson' => __DIR__ . '/../..' . '/app/Models/Lesson.php',
+        'App\\Models\\Mentor' => __DIR__ . '/../..' . '/app/Models/Mentor.php',
+        'App\\Models\\MyCourse' => __DIR__ . '/../..' . '/app/Models/MyCourse.php',
+        'App\\Models\\Review' => __DIR__ . '/../..' . '/app/Models/Review.php',
         'App\\Models\\User' => __DIR__ . '/../..' . '/app/Models/User.php',
         'App\\Providers\\AppServiceProvider' => __DIR__ . '/../..' . '/app/Providers/AppServiceProvider.php',
         'App\\Providers\\AuthServiceProvider' => __DIR__ . '/../..' . '/app/Providers/AuthServiceProvider.php',
