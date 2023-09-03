@@ -4,7 +4,7 @@ use Illuminate\Support\Facades\Http;
 
 function getUser($userId)
 {
-     $url = env('SERVICE_USER_URL') . 'users/' . $userId;
+     $url = env('SERVICE_USER_URL').'users/'.$userId;
 
      try {
           $response = Http::timeout(10)->get($url);
