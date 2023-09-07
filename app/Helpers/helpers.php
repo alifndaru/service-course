@@ -24,7 +24,7 @@ function getUser($userId)
 
 function getUserById($userIds = [])
 {
-     $url = env('SERVICE_USER_URL') . 'users/';
+     $url = env('SERVICE_USER_URL').'users/';
 
      try {
           if (count($userIds) === 0) {
